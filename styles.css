@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000 ;
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    text-rendering: optimizeLegibility !important ;
+    -webkit-font-smoothing: antialiased !important;
+    color: white;
+    overflow: hidden;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.profile {
+    width: 25%;
+}
+
+.profile ul {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px 60px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.profile li{
+    list-style: none;
+    margin-top: 18px;
+}
+
+.profile button {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    width: 240px;
+    background-color: #704BBF;
+    margin: 0 60px;
+}
+
+.profile p {
+    margin-left: 15px;
+    color:  #b5b0be
+}
+
+.profile   img{
+    border-radius: 50%;
+}
+
+.rodape {
+    display: flex;
+    margin: 60px;
+}
+
+
+
+.widgets {
+    width: 45%;
+    border: solid  #2F3336 1px;
+}
+
+.widgets header {
+    display: flex;
+}
+
+.widgets p {
+    justify-content: center;
+    padding: 10px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.widgets span{
+    color:  #704BBf;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.widgets h6 {
+    margin-left: 75px;
+    margin-top: -30px ;
+    margin-bottom: 5px;
+    color:  #626064;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.banner {
+    background-color: #2F3336;
+    height: 200px;
+}
+.session-img{
+    display: flex;
+}
+
+.widgets img {
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-left: 10px;
+    border: #0a0a0a solid 4px;
+}
+
+.widgets button {
+    margin-left: 340px;
+    height: 40px;
+    margin-top: 10px;
+    border: #704BBF solid 2px;
+    background-color: #000000;
+    color: #704BBF;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+.widgets ul {
+    list-style: none;
+    margin-left: 10px;
+}
+
+.widgets h1{
+    font-size: 19px;
+    margin-left: 10px;
+}
+
+.widgets li {
+    color:  #626064;
+    font-size: 14px;
+}
+
+.sessions {
+    display: flex;
+}
+
+.sessions h3 {
+    margin-top: 30px;
+    margin-left: 80px;
+    color:  #626064;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.widgets h5 {
+    color:  #626064;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.widgets hr {
+    margin-top: 10px;
+    border-color:  #626064;
+    margin-bottom: 10px;
+}
+
+
+
+#selected {
+    color: #704BBF;
+    font-weight: 700;
+}
+
+.maybe-you {
+    width: 30%;
+}
+
+.search {
+    display: flex;
+    margin: 20px;
+    height: 40px;
+
+    align-items: center;
+    background-color: #15181C;
+    color: #626064;
+    border-radius: 25px;
+}
+
+.session-maybe{
+    background-color: #15181C;
+    margin: 20px;
+    border-radius: 25px;
+
+}
+
+.session-maybe h1 {
+    margin-left: 15px;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 10px;
+
+}
+
+.session-maybe hr{
+    margin-top: 10px;
+    border-color:  #626064;
+    margin-bottom: 10px;
+    
+}
+
+.perfil-maybe {
+    display: flex;
+}
+
+.perfil-maybe p {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.perfil-maybe button {
+    margin-left: 55px;
+    border: #704BBF solid 2px;
+    background-color: #000000;
+    color: #704BBF;
+    width: 70px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+#show-more {
+    margin-left:20px;
+    padding: 10px;
+    font-weight:300;
+    color: #704BBF;
+}
